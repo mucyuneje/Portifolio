@@ -19,7 +19,7 @@ I’m a passionate **Full-Stack Developer** and **AI Engineer** with a creative 
 
 | Homepage | Project Section |
 |---------|------------------|
-| ![Home](./screenshots/home.png) | ![Projects](./screenshots/projects.png) |
+| ![Home](./home.png) | ![Projects](./projects.png) |
 
 ## 🔧 Features
 
