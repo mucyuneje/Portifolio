@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "articles": "Articles",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hello, I'm",
+    "name": "Mucyuneje Hirwa Arsene",
+    "title": "Full-Stack & AI Developer",
+    "description": "I build scalable web applications and intelligent systems that solve real-world problems.",
+    "cta": "View My Work",
+    "contact": "Get In Touch",
+    "badge": "Available for projects",
+    "statProjects": "Projects completed",
+    "statClients": "Happy clients",
+    "statExperience": "Years experience"
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "p1": "I'm a software developer from Rwanda with 5 years of experience building web applications and AI-powered solutions. I focus on creating efficient, scalable, and user-centric products.",
+    "p2": "My expertise spans full-stack development, machine learning, and system architecture. I'm passionate about leveraging technology to address meaningful challenges and deliver impactful results.",
+    "location": "Kigali, Rwanda",
+    "experience": "5+ Years",
+    "projects": "20+ Projects",
+    "stat1Label": "Years Experience",
+    "stat1Value": "5+",
+    "stat2Label": "Projects Completed",
+    "stat2Value": "20+",
+    "stat3Label": "Client Satisfaction",
+    "stat3Value": "100%"
+  },
+  "skills": {
+    "sectionTitle": "Skills & Expertise",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "AI & Data",
+      "tools": "Tools & DevOps"
+    }
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "description": "What I can do for you",
+    "items": {
+      "web": {
+        "title": "Full-Stack Development",
+        "description": "Custom web applications built with modern frameworks, optimized for performance and scalability."
+      },
+      "ai": {
+        "title": "AI Solutions",
+        "description": "Machine learning models and intelligent systems tailored to your business needs."
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "description": "Cross-platform mobile applications with seamless user experiences."
+      },
+      "consulting": {
+        "title": "Tech Consulting",
+        "description": "Strategic guidance on architecture, technology selection, and digital transformation."
+      }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Selected Work",
+    "description": "A curated selection of projects I've worked on.",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": {
+      "p1": {
+        "title": "Smart School System",
+        "description": "An intelligent school management platform with automated attendance, grading, and parent communication.",
+        "category": "Full-Stack · AI"
+      },
+      "p2": {
+        "title": "AI Trading Dashboard",
+        "description": "Real-time trading analytics powered by machine learning algorithms for market prediction.",
+        "category": "AI · Data Viz"
+      },
+      "p3": {
+        "title": "SaaS Analytics Platform",
+        "description": "A comprehensive analytics dashboard for SaaS businesses with real-time data visualization.",
+        "category": "SaaS · Analytics"
+      }
+    }
+  },
+  "benefits": {
+    "sectionTitle": "Why Choose Me",
+    "description": "Here's what sets my work apart.",
+    "items": {
+      "speed": {
+        "title": "Speed",
+        "description": "Rapid prototyping and delivery without compromising quality."
+      },
+      "consistency": {
+        "title": "Consistency",
+        "description": "Uniform design systems and code patterns across every project."
+      },
+      "scalability": {
+        "title": "Scalability",
+        "description": "Solutions built to grow with your business from day one."
+      },
+      "flexibility": {
+        "title": "Flexibility",
+        "description": "Adaptable workflows that fit your team's process and timeline."
+      },
+      "affordability": {
+        "title": "Affordability",
+        "description": "Premium results at competitive rates — no hidden costs."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Ongoing maintenance and support after launch."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "How I Work",
+    "description": "A clear, structured process from first conversation to final delivery.",
+    "steps": {
+      "s1": {
+        "title": "Discovery",
+        "description": "Understanding your goals, audience, and technical requirements."
+      },
+      "s2": {
+        "title": "Strategy",
+        "description": "Defining architecture, tech stack, and project roadmap."
+      },
+      "s3": {
+        "title": "Direction",
+        "description": "Establishing visual direction and design system foundations."
+      },
+      "s4": {
+        "title": "Design",
+        "description": "Creating interfaces that are both functional and beautiful."
+      },
+      "s5": {
+        "title": "Development",
+        "description": "Building robust, performant, and maintainable code."
+      },
+      "s6": {
+        "title": "Delivery",
+        "description": "Launching, monitoring, and iterating for optimal results."
+      }
+    }
+  },
+  "expertise": {
+    "sectionTitle": "My Expertise",
+    "description": "The core strengths I bring to every project.",
+    "items": {
+      "affordability": { "title": "Affordability", "description": "Premium results at competitive rates" },
+      "consistency": { "title": "Consistency", "description": "Uniform quality across every project" },
+      "scalability": { "title": "Scalability", "description": "Solutions built to grow" },
+      "speed": { "title": "Speed", "description": "Rapid delivery without compromise" },
+      "flexibility": { "title": "Flexibility", "description": "Adaptable to any workflow" },
+      "diversity": { "title": "Diversity", "description": "Full-stack + AI capabilities" },
+      "support": { "title": "Support", "description": "Ongoing after launch" },
+      "convenience": { "title": "Convenience", "description": "One developer, end-to-end" }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "What Clients Say",
+    "description": "Feedback from people I've worked with.",
+    "items": {
+      "t1": {
+        "quote": "Incredible attention to detail and delivered ahead of schedule. The platform has transformed how we manage our school.",
+        "name": "Jean-Paul Niyonzima",
+        "role": "Director",
+        "company": "Kigali Academy"
+      },
+      "t2": {
+        "quote": "The AI trading dashboard exceeded our expectations. Real-time insights that actually drive decisions.",
+        "name": "Sarah Mitchell",
+        "role": "Founder",
+        "company": "TradeSmart Analytics"
+      },
+      "t3": {
+        "quote": "Professional, responsive, and technically brilliant. Our SaaS analytics platform handles millions of data points seamlessly.",
+        "name": "David Uwimana",
+        "role": "CTO",
+        "company": "DataPulse Inc"
+      }
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Pricing",
+    "description": "Transparent packages for different project scopes.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "cta": "Get Started",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "$1,200",
+        "period": "/project",
+        "description": "Perfect for landing pages and small web apps.",
+        "features": [
+          "Up to 5 pages",
+          "Responsive design",
+          "Basic animations",
+          "Contact form",
+          "2 revisions"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$3,500",
+        "period": "/project",
+        "description": "For complex web applications and SaaS platforms.",
+        "features": [
+          "Unlimited pages",
+          "Custom design system",
+          "Advanced animations",
+          "API integration",
+          "Admin dashboard",
+          "5 revisions"
+        ],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "Full-scale development with ongoing support.",
+        "features": [
+          "Everything in Professional",
+          "AI/ML integration",
+          "Performance optimization",
+          "CI/CD setup",
+          "30-day support",
+          "Unlimited revisions"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "sectionTitle": "FAQ",
+    "description": "Common questions about working with me.",
+    "items": {
+      "q1": {
+        "question": "How does the onboarding process work?",
+        "answer": "We start with a discovery call to understand your goals, followed by a detailed proposal with timeline and milestones. Once approved, we kick off with a strategy session."
+      },
+      "q2": {
+        "question": "How fast will I receive my deliverables?",
+        "answer": "Timelines depend on scope. A landing page takes 1-2 weeks, while a full SaaS platform takes 6-12 weeks. I always provide realistic timelines upfront."
+      },
+      "q3": {
+        "question": "What technologies do you use?",
+        "answer": "I work with React, Next.js, Node.js, Python, PostgreSQL, and various AI/ML frameworks. I choose the best stack for each project's specific needs."
+      },
+      "q4": {
+        "question": "Do you work with international clients?",
+        "answer": "Absolutely. I work with clients worldwide and am comfortable across time zones. Communication happens via Slack, email, or your preferred channel."
+      },
+      "q5": {
+        "question": "What if I need changes after the project is done?",
+        "answer": "Every project includes a set number of revisions. After that, I offer ongoing support and maintenance packages at competitive rates."
+      },
+      "q6": {
+        "question": "Can you build AI-powered features?",
+        "answer": "Yes. I have experience with machine learning, NLP, computer vision, and integrating AI APIs like OpenAI into production applications."
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Get In Touch",
+    "description": "Have a project in mind? Let's work together.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "info": "Or reach me directly at"
+  },
+  "footer": {
+    "description": "Full-Stack & AI Developer building scalable web applications and intelligent systems.",
+    "copyright": "All rights reserved.",
+    "madeWith": "Built with React"
+  }
+}

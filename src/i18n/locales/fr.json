@@ -1,0 +1,268 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos",
+    "projects": "Projets",
+    "articles": "Articles",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Bonjour, je suis",
+    "name": "Mucyuneje Hirwa Arsene",
+    "title": "Developpeur Full-Stack & IA",
+    "description": "Je construis des applications web scalables et des systemes intelligents qui resolvent des problemes concrets.",
+    "cta": "Voir Mon Travail",
+    "contact": "Me Contacter",
+    "badge": "Disponible pour des projets",
+    "statProjects": "Projets realises",
+    "statClients": "Clients satisfaits",
+    "statExperience": "Annees d'experience"
+  },
+  "about": {
+    "sectionTitle": "A Propos",
+    "p1": "Je suis un developpeur logiciel du Rwanda avec 5 ans d'experience dans la creation d'applications web et de solutions basees sur l'IA.",
+    "p2": "Mon expertise couvre le developpement full-stack, l'apprentissage automatique et l'architecture des systemes.",
+    "location": "Kigali, Rwanda",
+    "experience": "5+ Ans",
+    "projects": "20+ Projets",
+    "stat1Label": "Annees d'Experience",
+    "stat1Value": "5+",
+    "stat2Label": "Projets Realises",
+    "stat2Value": "20+",
+    "stat3Label": "Satisfaction Client",
+    "stat3Value": "100%"
+  },
+  "skills": {
+    "sectionTitle": "Competences et Expertise",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "IA et Donnees",
+      "tools": "Outils et DevOps"
+    }
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "description": "Ce que je peux faire pour vous",
+    "items": {
+      "web": {
+        "title": "Developpement Full-Stack",
+        "description": "Applications web personnalisees construites avec des frameworks modernes, optimisees pour la performance."
+      },
+      "ai": {
+        "title": "Solutions IA",
+        "description": "Modeles d'apprentissage automatique et systemes intelligents adaptes a vos besoins."
+      },
+      "mobile": {
+        "title": "Applications Mobiles",
+        "description": "Applications mobiles multiplateformes avec des experiences utilisateur fluides."
+      },
+      "consulting": {
+        "title": "Conseil Tech",
+        "description": "Guidance strategique sur l'architecture et la transformation numerique."
+      }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Travaux Selectionnes",
+    "description": "Une selection de projets sur lesquels j'ai travaille.",
+    "viewProject": "Voir le Projet",
+    "viewCode": "Voir le Code",
+    "items": {
+      "p1": {
+        "title": "Systeme Scolaire Intelligent",
+        "description": "Une plateforme de gestion scolaire intelligente avec presence automatique et notation.",
+        "category": "Full-Stack · IA"
+      },
+      "p2": {
+        "title": "Tableau de Bord Trading IA",
+        "description": "Analyses de trading en temps reel propulseees par des algorithmes d'apprentissage automatique.",
+        "category": "IA · Visualisation"
+      },
+      "p3": {
+        "title": "Plateforme d'Analyse SaaS",
+        "description": "Un tableau d'analyse complet pour les entreprises SaaS avec visualisation de donnees en temps reel.",
+        "category": "SaaS · Analyse"
+      }
+    }
+  },
+  "benefits": {
+    "sectionTitle": "Pourquoi Me Choisir",
+    "description": "Ce qui distingue mon travail.",
+    "items": {
+      "speed": {
+        "title": "Rapidite",
+        "description": "Prototypage et livraison rapides sans compromettre la qualite."
+      },
+      "consistency": {
+        "title": "Coherence",
+        "description": "Systemes de design et patterns de code uniformes dans chaque projet."
+      },
+      "scalability": {
+        "title": "Scalabilite",
+        "description": "Solutions construites pour grandir avec votre entreprise."
+      },
+      "flexibility": {
+        "title": "Flexibilite",
+        "description": "Flux de travail adaptables au processus de votre equipe."
+      },
+      "affordability": {
+        "title": "Accessibilite",
+        "description": "Resultats premium a des taux competitifs, sans frais caches."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Maintenance et soutien continus apres le lancement."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "Comment Je Travaille",
+    "description": "Un processus clair et structure de la premiere conversation a la livraison finale.",
+    "steps": {
+      "s1": { "title": "Decouverte", "description": "Comprendre vos objectifs, votre public et vos besoins techniques." },
+      "s2": { "title": "Strategie", "description": "Definir l'architecture, le stack technique et la feuille de route." },
+      "s3": { "title": "Direction", "description": "Etablir la direction visuelle et les fondations du systeme de design." },
+      "s4": { "title": "Design", "description": "Creer des interfaces fonctionnelles et esthetiques." },
+      "s5": { "title": "Developpement", "description": "Construire du code robuste, performant et maintenable." },
+      "s6": { "title": "Livraison", "description": "Lancer, surveiller et iterer pour des resultats optimaux." }
+    }
+  },
+  "expertise": {
+    "sectionTitle": "Mon Expertise",
+    "description": "Les forces principales que j'apporte a chaque projet.",
+    "items": {
+      "affordability": { "title": "Accessibilite", "description": "Resultats premium a des taux competitifs" },
+      "consistency": { "title": "Coherence", "description": "Qualite uniforme dans chaque projet" },
+      "scalability": { "title": "Scalabilite", "description": "Solutions construites pour grandir" },
+      "speed": { "title": "Rapidite", "description": "Livraison rapide sans compromis" },
+      "flexibility": { "title": "Flexibilite", "description": "Adaptable a tout flux de travail" },
+      "diversity": { "title": "Diversite", "description": "Capacites Full-Stack + IA" },
+      "support": { "title": "Support", "description": "Continu apres le lancement" },
+      "convenience": { "title": "Praticite", "description": "Un seul developpeur, de bout en bout" }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Ce que Disent les Clients",
+    "description": "Retours des personnes avec lesquelles j'ai travaille.",
+    "items": {
+      "t1": {
+        "quote": "Attention incroyable aux details et livre en avance. La plateforme a transforme la gestion de notre ecole.",
+        "name": "Jean-Paul Niyonzima",
+        "role": "Directeur",
+        "company": "Kigali Academy"
+      },
+      "t2": {
+        "quote": "Le tableau de bord de trading IA a depasse nos attentes. Des informations en temps reel qui guident vraiment les decisions.",
+        "name": "Sarah Mitchell",
+        "role": "Fondatrice",
+        "company": "TradeSmart Analytics"
+      },
+      "t3": {
+        "quote": "Professionnel, reactif et techniquement brillant. Notre plateforme d'analyse gere des millions de points de donnees sans effort.",
+        "name": "David Uwimana",
+        "role": "CTO",
+        "company": "DataPulse Inc"
+      }
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Tarification",
+    "description": "Forfaits transparents pour differentes envergures de projet.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "cta": "Commencer",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "1 200 $",
+        "period": "/projet",
+        "description": "Ideal pour les pages d'atterrissage et petites applications.",
+        "features": [
+          "Jusqu'a 5 pages",
+          "Design responsive",
+          "Animations de base",
+          "Formulaire de contact",
+          "2 revisions"
+        ]
+      },
+      "professional": {
+        "name": "Professionnel",
+        "price": "3 500 $",
+        "period": "/projet",
+        "description": "Pour les applications web complexes et les plateformes SaaS.",
+        "features": [
+          "Pages illimitees",
+          "Systeme de design personnalise",
+          "Animations avancees",
+          "Integration API",
+          "Tableau de bord admin",
+          "5 revisions"
+        ],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "price": "Sur mesure",
+        "period": "",
+        "description": "Developpement complet avec support continu.",
+        "features": [
+          "Tout du Professionnel",
+          "Integration IA/ML",
+          "Optimisation des performances",
+          "Configuration CI/CD",
+          "Support 30 jours",
+          "Revisions illimitees"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "sectionTitle": "FAQ",
+    "description": "Questions frequentes sur le travail avec moi.",
+    "items": {
+      "q1": {
+        "question": "Comment fonctionne le processus d'integration?",
+        "answer": "Nous commençons par un appel de decouverte pour comprendre vos objectifs, suivi d'une proposition detaillee avec calendrier et jalons."
+      },
+      "q2": {
+        "question": "Combien de temps pour recevoir mes livrables?",
+        "answer": "Les delais dependent de l'ampleur. Une page d'atterrissage prend 1-2 semaines, une plateforme SaaS complete 6-12 semaines."
+      },
+      "q3": {
+        "question": "Quelles technologies utilisez-vous?",
+        "answer": "Je travaille avec React, Next.js, Node.js, Python, PostgreSQL et divers cadres IA/ML. Je choisis le meilleur stack pour chaque projet."
+      },
+      "q4": {
+        "question": "Travaillez-vous avec des clients internationaux?",
+        "answer": "Absolument. Je travaille avec des clients du monde entier et je suis a l'aise dans differents fuseaux horaires."
+      },
+      "q5": {
+        "question": "Et si j'ai besoin de modifications apres le projet?",
+        "answer": "Chaque projet inclut un certain nombre de revisions. Ensuite, j'offre des packages de maintenance et de support."
+      },
+      "q6": {
+        "question": "Pouvez-vous construire des fonctionnalites alimentees par l'IA?",
+        "answer": "Oui. J'ai de l'experience avec le machine learning, le NLP, la vision par ordinateur et l'integration d'APIs IA comme OpenAI."
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contactez-Moi",
+    "description": "Vous avez un projet en tete? Travaillons ensemble.",
+    "name": "Votre Nom",
+    "email": "Votre Email",
+    "subject": "Sujet",
+    "message": "Votre Message",
+    "send": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoye avec succes!",
+    "error": "Echec de l'envoi. Veuillez reessayer.",
+    "info": "Ou contactez-moi directement a"
+  },
+  "footer": {
+    "description": "Developpeur Full-Stack & IA construisant des applications web scalables et des systemes intelligents.",
+    "copyright": "Tous droits reserves.",
+    "madeWith": "Construit avec React"
+  }
+}

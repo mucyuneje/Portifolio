@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Iwacu",
+    "projects": "Imikorere",
+    "articles": "Inkuru",
+    "contact": "Tuvugishe"
+  },
+  "home": {
+    "greeting": "Muraho, ndi",
+    "name": "Mucyuneje Hirwa Arsene",
+    "title": "Umukorera wa Full-Stack n'AI",
+    "description": "Nakora porogaramu z'urubuga zikwiye n'ibiro by'ubushobozi bigatuma amakuru yoroshye kandi ashobora guhinduka bikwiye.",
+    "cta": "Reba Akazi Kahe",
+    "contact": "Tuvugishe",
+    "badge": "Dufise imikorere",
+    "statProjects": "Imikorere yarangiye",
+    "statClients": "Abakiriya bashimye",
+    "statExperience": "Imyaka y'ikiringo"
+  },
+  "about": {
+    "sectionTitle": "Iwacu",
+    "p1": "Ndindi mukorera wo mu Rwanda ufite imyaka 5 y'uburambe mu kora porogaramu z'urubuga n'ibisobanuro bifite ubwoko bwa AI.",
+    "p2": "Uburambe bwange bwubashisha mu kora porogaramu zose, kumenya amakuru no gutegura ingendo.",
+    "location": "Kigali, Rwanda",
+    "experience": "Imyaka 5+",
+    "projects": "Imikorere 20+",
+    "stat1Label": "Imyaka y'Ikiringo",
+    "stat1Value": "5+",
+    "stat2Label": "Imikorere Yarangiye",
+    "stat2Value": "20+",
+    "stat3Label": "Ubushimye bw'Akiriya",
+    "stat3Value": "100%"
+  },
+  "skills": {
+    "sectionTitle": "Ubufasha n'Ikiringo",
+    "categories": {
+      "frontend": "Imbere y'Irubuga",
+      "backend": "Inyuma y'Irubuga",
+      "ai": "AI n'Amakuru",
+      "tools": "Ibikoresho n'Ubuvandimwe"
+    }
+  },
+  "services": {
+    "sectionTitle": "Serivisi",
+    "description": "Iyo nashoboye gukubaha",
+    "items": {
+      "web": {
+        "title": "Kora Urubuga Rose",
+        "description": "Porogaramu z'urubuga zitandukanye zikoresha ibikoresho bisanzwe, zikoresha imikorere."
+      },
+      "ai": {
+        "title": "Serivisi za AI",
+        "description": "Ibicanwa by'ubushobozi n'ibiro bifite ubwoko bwa AI bikenewe n'ubucuruzi bwawe."
+      },
+      "mobile": {
+        "title": "Porogaramu z'Akatasi",
+        "description": "Porogaramu z'akatasi zo mu bushyuhe bwose zifite uburamwe bwiza."
+      },
+      "consulting": {
+        "title": "Ubufasha bw'Ikoranabuhanga",
+        "description": "Ubufasha bw'ingendo mu gutegura, guhitamwo ikoranabuhanga no guhindura ubucuruzi."
+      }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Akazi Katoranijwe",
+    "description": "Ibice by'akazi nakoreye.",
+    "viewProject": "Reba Akazi",
+    "viewCode": "Reba Inyandiko",
+    "items": {
+      "p1": {
+        "title": "Sisitemu y'Ishuri Rishingiye",
+        "description": "Urubuga rukwirakwiza amashuri rufite uburyo bwo kubona ubusobanuro, gupima no kuganira abazima.",
+        "category": "Full-Stack · AI"
+      },
+      "p2": {
+        "title": "Urubuga rwa Trading rwa AI",
+        "description": "Ibisobanuro bya Trading mu gihe nyaro bisunzwe n'ibicanwa by'ubushobozi mu gutegura isoko.",
+        "category": "AI · Ibyerekanwa"
+      },
+      "p3": {
+        "title": "Urubuga rwo Kugarura rwa SaaS",
+        "description": "Urubuga rukwirakwiza amakuru yose rwa SaaS rufite uburyo bwo kugarura amakuru mu gihe nyaro.",
+        "category": "SaaS · Gupima"
+      }
+    }
+  },
+  "benefits": {
+    "sectionTitle": "Kubera Iki Nduka",
+    "description": "Ibintu bishingiye akazi kanje.",
+    "items": {
+      "speed": { "title": "Ubukorikori", "description": "Gukora vuba nta quality irindwa." },
+      "consistency": { "title": "Kwizera", "description": "Ubushobozi bwumvikana mu mikorere yose." },
+      "scalability": { "title": "Gukura", "description": "Ibintu byakorwa bikura n'ubucuruzi bwawe." },
+      "flexibility": { "title": "Guhinduka", "description": "Uburyo bushobora guhinduka ukurikije ibyo ukeneye." },
+      "affordability": { "title": "Kugabanya", "description": "Ibintu byagutse mu giciro gitagereranywa." },
+      "support": { "title": "Ubufasha", "description": "Kwita nyuma yo gutangira." }
+    }
+  },
+  "process": {
+    "sectionTitle": "Nakoze Nikiye",
+    "description": "Uburyo bwumvikana busobanutse kuva mu kiganiro cya mbere kugera ku gutanga.",
+    "steps": {
+      "s1": { "title": "Kumenya", "description": "Kumva ibyo ukeneye, abantu n'ibyo ukeneye mu ikoranabuhanga." },
+      "s2": { "title": "Ingendo", "description": "Gutegura ingendo, ikoranabuhanga n'ingendo z'akazi." },
+      "s3": { "title": "Ishyira", "description": "Gushyira imbere y'ibisobanuro n'ubushobozi bw'ibintu." },
+      "s4": { "title": "Gukora", "description": "Gukora ibisobanuro bifite imikoreshereze n'ubwigerereza." },
+      "s5": { "title": "Kubaka", "description": "Kubaka inyandiko zigoye, zikwiye kandi zishobora gukorewa." },
+      "s6": { "title": "Gutanga", "description": "Gutangira, kugenzura no guhinduka kugira ngo tugeze ku bwiza." }
+    }
+  },
+  "expertise": {
+    "sectionTitle": "Ubushobozi Bwanje",
+    "description": "Imbaraga principal nkazana mu kazi cose.",
+    "items": {
+      "affordability": { "title": "Kugabanya", "description": "Ibintu byagutse mu giciro gitagereranywa" },
+      "consistency": { "title": "Kwizera", "description": "Ubushobozi bwumvikana mu mikorere yose" },
+      "scalability": { "title": "Gukura", "description": "Ibintu byakorwa bikura" },
+      "speed": { "title": "Ubukorikori", "description": "Gutanga vuba nta quality irindwa" },
+      "flexibility": { "title": "Guhinduka", "description": "Birashobora guhinduka mu buryo bwose" },
+      "diversity": { "title": "Ubwinjijwe", "description": "Ubushobozi Full-Stack + AI" },
+      "support": { "title": "Ubufasha", "description": "Nyuma yo gutangira" },
+      "convenience": { "title": "Kurera", "description": "Umukorera umwe, mu buryo bwose" }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Abakiriya Bavuga",
+    "description": "Ivyiyumviro vy'abakiriya nakoreye."
+
+  },
+  "pricing": {
+    "sectionTitle": "Igiciro",
+    "description": "Amasezerano yumvikana ku mikorere itandukanye.",
+    "monthly": "Ukwezi",
+    "yearly": "Umwaka",
+    "cta": "Tangira",
+    "tiers": {
+      "starter": {
+        "name": "Tangira",
+        "price": "$1,200",
+        "period": "/kazi",
+        "description": "Neza ku rubuga n'porogaramu nto.",
+        "features": ["Kugeza ku rubuga 5", "Design yo gukoresha", "Ibintu byo gutangira", "Icyerekezo c'abakiriya", "Gusubirwaho 2"]
+      },
+      "professional": {
+        "name": "Professionnel",
+        "price": "$3,500",
+        "period": "/kazi",
+        "description": "Ku porogaramu n'amasezerano yakubye.",
+        "features": ["Ibubugo risanzwe", "Sisitemu y'ibintu", "Ibintu by'akanya", "Kwegera API", "Dashboard", "Gusubirwaho 5"],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Isosiyete",
+        "price": "Kuboneka",
+        "period": "",
+        "description": "Gukora rose hamwe n'ubufasha.",
+        "features": ["Ibintu vyose vy'Professionnel", "AI/ML kwegera", "Kwizerwa kw'ibintu", "CI/CD", "Ubufasha amezi 3", "Gusubirwaho risanzwe"]
+      }
+    }
+  },
+  "faq": {
+    "sectionTitle": "Ibibazo",
+    "description": "Ibibazo bisanzwe kubera akazi kanje.",
+    "items": {
+      "q1": { "question": "Uburyo bw'kwizera bushoboka bukora biri mu buryo bwa?", "answer": "Tutangira mu kiganiro c'ibisobanuro kugira ngo tumve ibyo ukeneye, ukurikije amasezerano y'ingendo." },
+      "q2": { "question": "Ni gihe nakwakira ibyo nakoze?", "answer": "Ibiringo riterewe n'ubunini. Urubuga ruto rufite ibyumirizo, amasezerano yakubye arufite amezi." },
+      "q3": { "question": "Ikoranabuhanga iciyo ushokoresha?", "answer": "Nakoresha React, Next.js, Node.js, Python, PostgreSQL n'ibintu by'AI/ML." },
+      "q4": { "question": "Wakoresha abakiriya bo mu isi yose?", "answer": "Ego. Nakoresha abakiriya bo mu buryo bwose kandi mfite uburambe mu giheCitewe." },
+      "q5": { "question": "Niba mpabaye guhindura nyuma yo gutuma?", "answer": "Kazi cose gifite ibintu bisabwa. Nyuma, nfite amasezerano yo kwita no gukora." },
+      "q6": { "question": "Ushobora gukora ibintu bikorana na AI?", "answer": "Ego. Nafise uburambe mu machine learning, NLP, vision by'ibintu n'amasezerano y'AI nka OpenAI." }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Tuvugishe",
+    "description": "Usobanukirwa ikintu? Tukore hamwe.",
+    "name": "Izina Ryawe",
+    "email": "Email yawe",
+    "subject": "Ingingo",
+    "message": "Ubutumwa Bwawe",
+    "send": "Ohereza Ubutumwa",
+    "sending": "Birimo koherezwa...",
+    "success": "Ubutumwa bwoherejwe neza!",
+    "error": "Ntibyatunganye. Nyamuneka ongera ugerageze.",
+    "info": "Cyangwa twandikire kuri"
+  },
+  "footer": {
+    "description": "Umukorera Full-Stack & AI akora porogaramu z'urubuga zikwiye n'ibiro by'ubushobozi.",
+    "copyright": "Amatambwe yose arindwa.",
+    "madeWith": "Yakorewe na React"
+  }
+}

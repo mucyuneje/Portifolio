@@ -1,132 +1,87 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
-import plugin from "tailwindcss/plugin";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+        bg: "#F0F1EE",
+        surface: "#EAEBE7",
+        card: "#FFFFFF",
+        text: {
+          DEFAULT: "#111111",
+          muted: "#6B6B6B",
+          faint: "#9B9B9B",
         },
-        stroke: {
-          1: "#26242C",
+        border: {
+          DEFAULT: "#E5E5E5",
+          light: "#F0F0F0",
         },
-        n: {
-          1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
-          5: "#3F3A52",
-          6: "#252134",
-          7: "#15131D",
-          8: "#0E0C15",
-          9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
+        dark: {
+          DEFAULT: "#111111",
+          panel: "rgba(15,15,15,0.85)",
+        },
+        accent: {
+          DEFAULT: "#111111",
+          light: "#333333",
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        serif: ['"Lora"', '"Georgia"', "serif"],
+        sans: ['"Inter"', '"Helvetica Neue"', "sans-serif"],
+        display: ['"Instrument Sans"', '"Inter"', "sans-serif"],
       },
-      letterSpacing: {
-        tagline: ".15em",
+      fontSize: {
+        "hero": ["clamp(3rem, 5.5vw, 5.25rem)", { lineHeight: "0.98", letterSpacing: "-0.02em" }],
+        "h1": ["clamp(2.5rem, 4vw, 4rem)", { lineHeight: "1.0", letterSpacing: "-0.02em" }],
+        "h2": ["clamp(2rem, 3vw, 3rem)", { lineHeight: "1.1", letterSpacing: "-0.01em" }],
+        "h3": ["clamp(1.5rem, 2vw, 1.875rem)", { lineHeight: "1.15" }],
+        "body": ["1.125rem", { lineHeight: "1.6" }],
+        "small": ["0.875rem", { lineHeight: "1.5" }],
+        "tiny": ["0.8125rem", { lineHeight: "1.4" }],
+        "stat": ["clamp(1.75rem, 2.5vw, 2.125rem)", { lineHeight: "1" }],
       },
       spacing: {
-        0.25: "0.0625rem",
-        7.5: "1.875rem",
-        15: "3.75rem",
+        "section": "104px",
+        "grid": "28px",
+        "container-pad": "85px",
+        18: "4.5rem",
+        22: "5.5rem",
+        30: "7.5rem",
       },
-      opacity: {
-        15: ".15",
+      borderRadius: {
+        "card": "24px",
+        "section": "30px",
+        "pill": "999px",
+        "button": "14px",
+        "badge": "12px",
+        "icon": "10px",
+      },
+      maxWidth: {
+        "container": "1725px",
+        "content": "1370px",
+        "nav": "1010px",
+        "prose": "600px",
+        "card-text": "460px",
+      },
+      boxShadow: {
+        "card": "0 8px 24px rgba(0,0,0,0.08)",
+        "card-hover": "0 12px 32px rgba(0,0,0,0.12)",
+        "nav": "0 4px 20px rgba(0,0,0,0.06)",
+        "glass": "0 20px 40px rgba(0,0,0,0.25)",
+        "tool": "0 8px 30px rgba(0,0,0,0.12)",
       },
       transitionDuration: {
         DEFAULT: "200ms",
+        fast: "140ms",
+        normal: "200ms",
+        slow: "350ms",
       },
       transitionTimingFunction: {
-        DEFAULT: "linear",
-      },
-      zIndex: {
-        1: "1",
-        2: "2",
-        3: "3",
-        4: "4",
-        5: "5",
-      },
-      borderWidth: {
-        DEFAULT: "0.0625rem",
-      },
-      backgroundImage: {
-        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+        DEFAULT: "cubic-bezier(0.25, 0.1, 0.25, 1)",
       },
     },
   },
-  plugins: [
-    plugin(function ({ addBase, addComponents, addUtilities }) {
-      addBase({});
-      addComponents({
-        ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
-            {},
-        },
-        ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
-            {},
-        },
-        ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
-            {},
-        },
-        ".h3": {
-          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
-        },
-        ".h4": {
-          "@apply text-[2rem] leading-normal": {},
-        },
-        ".h5": {
-          "@apply text-2xl leading-normal": {},
-        },
-        ".h6": {
-          "@apply font-semibold text-lg leading-8": {},
-        },
-        ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
-            {},
-        },
-        ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
-        },
-        ".caption": {
-          "@apply text-sm": {},
-        },
-        ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
-        },
-        ".quote": {
-          "@apply font-code text-lg leading-normal": {},
-        },
-        ".button": {
-          "@apply font-code text-xs font-bold uppercase tracking-wider": {},
-        },
-      });
-      addUtilities({
-        ".tap-highlight-color": {
-          "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
-        },
-      });
-    }),
-  ],
+  plugins: [],
 };

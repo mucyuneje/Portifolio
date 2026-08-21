@@ -1,88 +1,110 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-sora: "Sora", sans-serif;
-  --font-code: "Source Code Pro", monospace;
-  --font-grotesk: "Space Grotesk", sans-serif;
-  color-scheme: dark;
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  --font-display: "Instrument Sans", "Inter", sans-serif;
+  color-scheme: light;
 }
 
 * {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
-@layer base {
-  body {
-    @apply font-sans bg-n-8 text-n-1 text-base;
+html {
+  background-color: #F0F1EE;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F0F1EE;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(17, 17, 17, 0.12);
+  color: #111111;
+}
+
+@layer components {
+  .container-wide {
+    @apply mx-auto px-6 md:px-10 lg:px-[85px] max-w-container;
   }
-}
 
-.rotate-45 {
-  @apply rotate-[45deg]
-}
+  .container-content {
+    @apply mx-auto px-6 md:px-10 lg:px-[85px] max-w-content;
+  }
 
-.rotate-90 {
-  @apply rotate-[90deg]
-}
+  .section-spacing {
+    @apply py-24 md:py-[104px];
+  }
 
-.rotate-135 {
-  @apply rotate-[135deg]
-}
+  .eyebrow {
+    @apply inline-flex items-center gap-2 px-5 py-2 bg-white border border-border rounded-pill text-small font-medium text-text-muted;
+  }
 
-.rotate-180 {
-  @apply rotate-[180deg]
-}
+  .section-header-centered {
+    @apply text-center max-w-prose mx-auto mb-16;
+  }
 
-.rotate-225 {
-  @apply rotate-[225deg]
-}
+  .section-header-left {
+    @apply max-w-card-text mb-12;
+  }
 
-.rotate-270 {
-  @apply rotate-[270deg]
-}
+  .heading-serif {
+    font-family: var(--font-serif);
+    @apply font-medium tracking-[-0.02em] text-text;
+  }
 
-.rotate-315 {
-  @apply rotate-[315deg]
-}
+  .text-muted {
+    @apply text-text-muted;
+  }
 
-.rotate-360 {
-  @apply rotate-[360deg]
-}
+  .text-faint {
+    @apply text-text-faint;
+  }
 
-.-rotate-45 {
-  @apply rotate-[-45deg]
-}
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-[18px] bg-dark text-white rounded-button font-semibold text-body transition-all duration-fast hover:shadow-card-hover;
+  }
 
-.-rotate-90 {
-  @apply rotate-[-90deg]
-}
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-[18px] bg-white text-text border border-border rounded-button font-semibold text-body transition-all duration-fast hover:border-text-faint;
+  }
 
-.-rotate-135 {
-  @apply rotate-[-135deg]
-}
+  .btn-pill {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-[10px] rounded-pill text-[16px] font-medium transition-all duration-fast;
+  }
 
-.-rotate-180 {
-  @apply rotate-[-180deg]
-}
+  .btn-pill-active {
+    @apply btn-pill bg-dark text-white;
+  }
 
-.-rotate-225 {
-  @apply rotate-[-225deg]
-}
+  .btn-pill-inactive {
+    @apply btn-pill bg-white text-text border border-border hover:border-text-faint;
+  }
 
-.-rotate-270 {
-  @apply rotate-[-270deg]
-}
+  .filter-row {
+    @apply flex flex-wrap items-center justify-center gap-3;
+  }
 
-.-rotate-315 {
-  @apply rotate-[-315deg]
-}
+  .glass-card {
+    @apply bg-dark-panel backdrop-blur-xl rounded-card p-7 text-white;
+  }
 
-.-rotate-360 {
-  @apply rotate-[-360deg]
+  .input-label {
+    @apply block text-small font-medium text-text mb-2;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-[14px] bg-white border border-border rounded-[12px] text-text placeholder-text-faint focus:outline-none focus:border-text-muted transition-colors;
+  }
 }
